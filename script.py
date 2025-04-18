@@ -12,7 +12,7 @@ import train_TE
 
 
 def Run(_embedding_path:str, _bin_path:str, _title:str, _expand_dim=512, _nonzero=16):
-#     lfw_embeddings=torch.load('./features/lfw_1024.pt')
+#     lfw_embeddings=torch.load('./features/lfw_arcface_R100.pt')
     loaded_embedding=torch.load(_embedding_path)
     
 #     lfw_issame_list=load_issame("./features/lfw.bin")
